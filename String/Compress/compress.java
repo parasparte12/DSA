@@ -17,7 +17,7 @@ public class compress{
             }
         }
 
-        return newstr;
+        return newstr; // this will return the new string
     
 
     }
