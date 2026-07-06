@@ -29,7 +29,8 @@ public class TwoQuee {
     public static void nQuees(char board[][], int row) {
         // base case
         if (row == board.length) {
-            printBoard(board);
+            // printBoard(board);
+            count++;
             return;
         }
 
@@ -53,6 +54,8 @@ public class TwoQuee {
         }
     }
 
+    static int count=0;
+
     public static void main(String args[]) {
         int n = 5;
         char board[][] = new char[n][n];
@@ -65,5 +68,6 @@ public class TwoQuee {
         }
         
         nQuees(board, 0);
+        System.out.println("Total ways to place n  queens: " + count);
     }
 }
