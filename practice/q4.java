@@ -2,8 +2,8 @@ import java.util.*;
 
 public class q4 {
 
-    public static List<String> validatePassword(String pw) {
-        List<String> errors = new ArrayList<>();
+    public static List<String> validatePassword(String pw) { // here List<String> is used to return multiple error messages instead of just one and ValidatePassword is a more descriptive name than validate, which could be used for other types of validation as well.
+        List<String> errors = new ArrayList<>();// Use ArrayList for dynamic sizing and easy addition of error messages
 
         // 1. Handle edge case for null or check length immediately
         if (pw == null || pw.length() < 8) {
