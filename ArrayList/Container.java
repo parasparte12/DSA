@@ -1,3 +1,9 @@
+// this is the implementation of the container with most water problem
+// approach : we will use two pointer approach to find the maximum area of water 
+// trick : we will use two pointer approach to find the maximum area of water and we will move the pointer which is pointing to the smaller height because we want to maximize the area of water and we can only do that by moving the pointer which is pointing to the smaller height because if we move the pointer which is pointing to the larger height then we will not be able to maximize the area of water because the area of water is limited by the smaller height.
+// we will calculate the area of water at each step and we will keep track of the maximum area of water and we will return the maximum area of water at the end.
+// remember : the area of water is calculated by the formula : area = height * width where height is the minimum of the two heights and width is the distance between the two pointers.
+
 import java.util.*;
 
 public class Container{

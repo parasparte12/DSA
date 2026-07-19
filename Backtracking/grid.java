@@ -1,4 +1,5 @@
-
+// this is the implementation of backtracking to find the number of ways to reach the destination in a grid
+// grid means a 2D array where we can move either down or right at any point in time. We have to reach the destination from the source. The source is at (0,0) and the destination is at (n-1,m-1). We can only move down or right. We have to find the number of ways to reach the destination from the source.
 public class grid{
 
      public static int gridWays(int i,int j,int n,int m){

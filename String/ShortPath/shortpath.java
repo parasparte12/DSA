@@ -1,4 +1,6 @@
 
+// this is the implementation of shortest path in a 2D plane
+//
  public class shortpath{
 
    public static float getpath(String path){

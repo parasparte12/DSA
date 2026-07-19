@@ -1,4 +1,8 @@
 
+
+// this is the implementation of kadanes algorithm to find the maximum subarray sum in an array
+// approach : at each position, we decide whether to extend the existing subarray or start a new one
+
 public class kadanes{
 
 public static void kedanes(int num[]){
