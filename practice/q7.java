@@ -15,7 +15,7 @@ arr[rp]=temp;
 lp++;
 rp--;
 }
-System.out.print("reverse arr=" + Arrays.toString(arr));
+System.out.print("reverse arr=" + Arrays.toString(arr));// Array.toString() is used to convert the array to a string representation for easy printing.
 
 }
 
