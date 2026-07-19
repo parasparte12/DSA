@@ -11,7 +11,8 @@ public class q5{
     }
 public static void main(String args[]){
 
-    int n=4;
+    int n=5;
+    System.out.print(factorial(n));
 
 }
 }
