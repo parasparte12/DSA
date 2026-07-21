@@ -3,7 +3,7 @@
 public class q9{
     public static int removeDuplicate(int arr[]){
 
-        if(arr.length==0){
+        if(arr.length==0){ // Check if the input array is empty. If it is, return 0 since there are no elements to process.
             return 0;
 
         }
