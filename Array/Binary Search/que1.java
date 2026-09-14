@@ -1,7 +1,7 @@
 public class que1{
 
 
-public static int Search(int num[],int key){
+public static int Search(int num[],int key){ 
 
 int st=0;int end= num.length-1;
 while(st<=end){
