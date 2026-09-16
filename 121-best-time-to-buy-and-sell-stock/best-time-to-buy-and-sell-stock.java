@@ -3,10 +3,10 @@ class Solution {
  
  int buyPrice=prices[0];
  int maxProfit=0;
- for(int num : prices){
+ for(int todayPrice : prices){
 
-    buyPrice=Math.min(buyPrice,num);
-    maxProfit=Math.max(maxProfit,num-buyPrice);
+    buyPrice=Math.min(buyPrice,todayPrice);
+    maxProfit=Math.max(maxProfit,todayPrice-buyPrice);
 
  }
  return maxProfit;
