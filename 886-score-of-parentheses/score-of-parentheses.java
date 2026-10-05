@@ -8,7 +8,7 @@ class Solution {
             if(c=='(') open ++;
             else open --;
 
-            if( c==')' &&  i> 0 && s.charAt(i-1)=='('){
+            if( c==')' && i> 0 && s.charAt(i-1)=='('){
                 score+=1<<open;
             }
         }
