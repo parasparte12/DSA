@@ -4,6 +4,8 @@ class Solution {
         Arrays.sort(nums);
         Set<List<Integer>> ans =new HashSet<>();
         for(int i=0;i<=nums.length-3;i++){
+           //  Same value as the previous i: would only give duplicate triplets
+            if (i > 0 && nums[i] == nums[i - 1]) continue;
             int lp=i+1;
             int rp=nums.length-1;
             while(lp<rp){
