@@ -5,12 +5,12 @@ class Solution {
         for(int i=0;i<s.length();i++){
             char ch=s.charAt(i);
             if(ch=='('){
-                if(count!=0) paras.append(ch);
+                if(count>0) paras.append(ch);
                 count++;
 
             }else{
                 count--;
-                if(count!=0) paras.append(ch);
+                if(count>0) paras.append(ch);
             }
         }
         return paras.toString();
