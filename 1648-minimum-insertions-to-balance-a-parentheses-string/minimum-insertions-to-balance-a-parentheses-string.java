@@ -6,11 +6,13 @@ class Solution {
         for(int i=0;i<a;i++){
             char c=s.charAt(i);
             if(c=='(') open++;
-            else{ if(i+1<a && s.charAt(i+1)==')') i++;
-            else MinInsertion++;
+            else{ 
+                if(i+1<a && s.charAt(i+1)==')') i++;
+                 else MinInsertion++;
         
-             if(open>0) open--;
-            else MinInsertion++;}
+                 if(open>0) open--;
+                else MinInsertion++;
+                }
         }
         return MinInsertion+open*2;
         
